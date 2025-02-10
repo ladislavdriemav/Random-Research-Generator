@@ -1,1 +1,1 @@
-# Random-Word-Generator
+# Random-Research-Generator
