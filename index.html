@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random things to research (and learn) when you're bored </h1>
+    <p id="random-word">Click the button to generate</p>
+    <button class="btn" onclick="generateRandomWord()">Get another one</button>
+
+    <script>
+        // Array of random words
+        const words = 
+    [
+        "Statue of Peace", 
+        "Cigar etiquette", 
+        "Colors of noise",
+        "Golden Age of Piracy", 
+        "Hedgehog's dilemma",
+        "Non-place", 
+        "Liking gap", 
+        "Cosmic latte",
+        "Chaos theory", 
+        "Hole theory",
+        "Catoptric tristesse", 
+        "Cold empathy", 
+        "Revenge bedtime procrastination", 
+        "African mythology", 
+        "Opium war","Beatniks",
+        "'Paul McCartney is dead' theory",
+        "Cain complex",
+        "Styles of Jazz",
+        "Miscellaneous symbols",
+        "Killing in Riverside Park",
+        "Fata Morgana",
+        "Lovers of Valdaro",
+        "Japanese art",
+        "History of swastika in different cultures",
+        "Hunter S. Thompson's journalism career",
+        "Alan Moore's bibliography and biography",
+        "Biography of Mikhail Vrubel and his mystic artwaorks",
+        "Dutch Golden Age painting",
+        "Classical conditioning",
+        "Vladimir Demikhov's two-headed dogs",
+        "History of ideology of fascism",
+        "Father complex in films",
+        "Dr. Teeth and the Electric Mayhem",
+        "Greek mythology periods",
+        "History of the Jews in Poland",
+        "Vulcan salute",
+        "Languages constructed by Tolkien",
+        "Languages in Star Wars",
+        "Categories of Cults",
+        "Kafka's letter to his father",
+        "Edgar Allan Poe in popular culture",
+        "Public Universal Friend",
+        "Eternal return",
+        "History of the skinhead movement",
+        "Tom Lehrer lyrics",
+        "Novecento (monologue)",
+        "Dungeons & Dragons rules",
+        "Amaterasu",
+        "Barbora Skrlová",
+        "Voynich manuscript",
+        "New Bedford Highway Killer",
+        "Lujon (Mr Lucky Goes Latin) - Henry Mancini",
+        "Cape Intruder",
+        "the Belcher Islands massacre (Charlie Ouyerack & Peter Sala)",
+        "Inuit mythology",
+        "Language of flowers",
+        "Jonathan Larson's diskography",
+        "Types of films (B-films, C-films, Z-films e.t.c.)",
+        "Stock characters (list of stock characters)",
+        "Shades of white",
+        "Infinite monkey theorem",
+        "Hilbert's paradox of the Grand Hotel",
+        "Judas goat",
+        "Queen Genepil",
+        "Films ABOUT snuff (as Thesis(1996), Benny's Video (1992), Videodrome (1983), The Poughkeepsie Tapes(2007), e.t.c.)",
+        "Dnepropetrovsk maniacs and Academy maniacs. Similarity ",
+        "The Cleaners (serial killers) ",
+        "Nighttime Killers",
+        "Ritual murders in Yaroslavl (better to google: 'Ритуальные убийства в Ярославле' in Russian and translate wikipedia page, there's much more information)",
+        "Female gladiators",
+        "Mummy Brown",
+        "days of the week named after norse gods",
+        "Searching for sugar man. Sixto Rodriguez",
+        "Ulillillia. Nick Smith",
+        "Ladislav Hojer",
+        "Jiří Markovič",
+        "vztah mezi Hojerem a Markovičem"
+    ];
+
+        // Function to generate a random word
+        function generateRandomWord() {
+            const randomIndex = Math.floor(Math.random() * words.length);
+            const randomWord = words[randomIndex];
+            document.getElementById('random-word').innerText = randomWord;
+        }
+    </script>
+
+
+
+  
+<div style="position: absolute; 
+bottom: 0; left: 0;">
+constantly updating website<br>
+my email: l18309385@gmail.com
+
+</div>
+
+</body>
+</html>
